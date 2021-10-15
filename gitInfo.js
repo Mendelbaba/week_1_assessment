@@ -10,6 +10,7 @@
 */
 
 //CODE HERE
+let gitDefinition = "Git id the local tool on ones machine for organizing local repos as well as logging and saving changes to ones work as well as pushing it up to ones github repo to save it and make it accessible there"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -18,7 +19,7 @@
 */
 
 //CODE HERE
-
+let gitHubDefinition = "github is the cloud service on the internet where one can save, organize as well as share their code"
 //////////////////PROBLEMS 3 - 8////////////////////
 /*
     For the next several problems you will be creating objects containing information about different git 
@@ -33,7 +34,8 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+//CODE HERE 
+const init = { description: "creates (initializes) a git repository", code: "git init"};
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -42,13 +44,13 @@
 */
 
 //CODE HERE
-
+const clone = { description: "clones (makes you a copy) from a repo from github onto your machine", code: "git clone theoreticaluURLtobecloned"};
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
     following the guidelines above to describe the status command.
 */
-
+const status = { description: "shows the status of the current file that is being worked in (whether it is being tracked in git or not)", code: "git status"};
 //CODE HERE
 
 //////////////////PROBLEM 6////////////////////
@@ -56,8 +58,9 @@
     Create an object called 'add' with 'description' and 'code' properties 
     following the guidelines above to describe the add command.
 */
-
 //CODE HERE
+const add = { description: "adds the changes of the file as it is now to be saved and pushed", code: "git add"};
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -66,7 +69,7 @@
 */
 
 //CODE HERE
-
+const commit = { description:"saves the current status of the local repo so it can be pushed", code:"git commit -m 'comment'"};
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -75,3 +78,4 @@
 */
 
 //CODE HERE
+const push = {description:"sends the local repo to github to be saved in a repo that is saved to the cloud", code:"git push"};
